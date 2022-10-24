@@ -1,9 +1,7 @@
-package me.manylove.reflect;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.lang.reflect.Modifier;
+import java.lang.reflect.Constructor;
 import java.util.Arrays;
 
 @DisplayName("생성자 정보")

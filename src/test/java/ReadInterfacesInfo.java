@@ -1,5 +1,3 @@
-package me.manylove.reflect;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

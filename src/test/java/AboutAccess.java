@@ -1,5 +1,3 @@
-package me.manylove.reflect;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -28,7 +26,7 @@ public class AboutAccess {
     void accessByFQCN(){
         Class<?> bookClassByFQCN = null;
         try {
-            bookClassByFQCN = Class.forName("me.manylove.reflect.Book");
+            bookClassByFQCN = Class.forName("Book");
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }

@@ -1,15 +1,5 @@
-package me.manylove.reflect;
 
-import me.manylove.reflect.annotaion.*;
-
-import java.lang.annotation.Inherited;
-
-@ClassAnnotation
-@RuntimeAnnotation
-@SourceAnnotation
-@InheritAnnotation
-@DefaultValueAnnotation("hash_002")
-@NonDefaultValueAnnotation(name = "goodName")
+@CustomAnnotation("hash_002")
 public class Book {
 
     public static String staticAttr = "기본값";

@@ -1,5 +1,3 @@
-package me.manylove.reflect;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +12,7 @@ public class Manipulate {
     @Test
     @DisplayName("인스턴스 생성/값 변경")
     void mani() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException {
-        Class<?> bookClass = Class.forName("me.manylove.reflect.Book");
+        Class<?> bookClass = Class.forName("Book");
         //String name, String isbn, double randomNumber
         Constructor<?> constructor = bookClass.getConstructor(String.class, String.class, double.class);
         Book book = (Book) constructor.newInstance("kwondarc", "ISBN123456", 3.44);
@@ -40,9 +38,9 @@ public class Manipulate {
         System.out.println(secretName.get(book));
 
         // private 메소드 실행
-        Method add = Book.class.getDeclaredMethod("sum", int.class, int.class);
-        add.setAccessible(true);
-        System.out.println(add.invoke(book, 1, 2));
+        Method sum = Book.class.getDeclaredMethod("sum", int.class, int.class);
+        sum.setAccessible(true);
+        System.out.println(sum.invoke(book, 1, 2));
 
     }
 

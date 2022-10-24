@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac90b587-e3f2-4f6e-8a70-fce0c8c5716f" name="Changes" comment="" />
+    <list default="true" id="ac90b587-e3f2-4f6e-8a70-fce0c8c5716f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CustomAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CustomAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AboutAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AboutAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Manipulate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Manipulate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReadAnnotationsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReadAnnotationsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReadConstructorsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReadConstructorsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReadFieldsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReadFieldsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReadInterfacesInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReadInterfacesInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReadMethodsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReadMethodsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReadSuperclassInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReadSuperclassInfo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +31,15 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="g5wht1kr" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2GWRWDPbzXFUwjrcsfu5DK5zWBD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,9 +48,79 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kwondarc/Workspaces/IntelliJ/reflection/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'reflection.test'">
+    <configuration name="AboutAccess.accessByFQCN" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;AboutAccess.accessByFQCN&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'reflection.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'reflection.test'" />
+        <item itemvalue="Gradle.AboutAccess.accessByFQCN" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,7 +129,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666502384060</updated>
+      <workItem from="1666502385394" duration="7072000" />
+      <workItem from="1666573429188" duration="4631000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
